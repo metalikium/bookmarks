@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"user",
+				"user_session"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"sess",
+				"sessions"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"tas",
+				"taskId"
+			],
+			[
+				"Use",
+				"UserTasksController"
+			],
+			[
+				"task",
+				"tasks"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"anima",
+				"animate"
+			],
+			[
+				"swi",
+				"swipeApp"
+			],
+			[
+				"listy",
+				"list-style"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"im",
+				"imageUrl"
+			],
+			[
+				"max",
+				"max_num"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"place",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"image",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"img",
+				"Emmet: Update Image Size"
+			],
+			[
+				"synph",
+				"Set Syntax: PHP"
+			],
+			[
+				"synbl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"synbla",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"synblad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"insla",
+				"Package Control: Install Package"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"synht",
+				"Set Syntax: HTML"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"listpack",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/bin/php/php5.5.10/bin/php.ini",
+		"/etc/hosts",
+		"/Users/metalikium/sites/tasks/ete/hosts",
+		"/Users/metalikium/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/metalikium/sites/tasks/app/views/tasks/show.blade.php",
+		"/Users/metalikium/sites/tasks/app/views/tasks/index.blade.php",
+		"/Users/metalikium/sites/tasks/app/views/layouts/default.blade.php",
+		"/Users/metalikium/sites/tasks/app/models/User.php",
+		"/Users/metalikium/sites/tasks/app/controllers/UserTasksController.php",
+		"/Users/metalikium/sites/tasks/app/controllers/TasksController.php",
+		"/Users/metalikium/sites/tasks/app/models/Task.php",
+		"/Users/metalikium/sites/tasks/app/views/errors/404.blade.php",
+		"/Users/metalikium/sites/tasks/app/start/global.php",
+		"/Users/metalikium/sites/tasks/app/database/seeds/UsersTableSeeder.php",
+		"/Users/metalikium/sites/tasks/app/database/migrations/2014_11_11_120809_add_column_remerber_token_to_users_table.php",
+		"/Users/metalikium/sites/tasks/app/database/migrations/2014_11_08_141340_create_users_table.php",
+		"/Users/metalikium/sites/tasks/app/views/sessions/user.blade.php",
+		"/Users/metalikium/sites/tasks/app/views/admin/index.blade.php",
+		"/Users/metalikium/sites/tasks/app/database/seeds/DatabaseSeeder.php",
+		"/Users/metalikium/sites/tasks/app/database/migrations/2014_11_08_134435_create_tasks_table.php",
+		"/Users/metalikium/sites/tasks/app/config/database.php",
+		"/Users/metalikium/sites/tasks/app/config/local/database.php",
+		"/Users/metalikium/sites/homestead/Homestead.yaml",
+		"/Users/metalikium/sites/learning-laravel/app/views/users/index.html",
+		"/Users/metalikium/sites/learning-laravel/app/config/database.php",
+		"/Users/metalikium/sites/learning-laravel/app/config/local/database.php",
+		"/Users/metalikium/sites/angularswipe/bower_components/angular-animate/README.md",
+		"/Users/metalikium/sites/angularjs/angularjs.sublime-project",
+		"/Users/metalikium/sites/angulartuts/js/data/phones.json",
+		"/Users/metalikium/sites/angulartuts/js/phones.json",
+		"/Users/metalikium/sites/angulartuts/phone-detail.html",
+		"/Users/metalikium/sites/angulartuts/js/app",
+		"/Users/metalikium/sites/angulartuts/npm-debug.log",
+		"/Users/metalikium/sites/aeon/index.php",
+		"/Users/metalikium/sites/aeon/index.html",
+		"/Users/metalikium/angularjs/index.html",
+		"/Users/metalikium/angularjs/bower_components/bootstrap/dist/css/bootstrap.min.css",
+		"/Users/metalikium/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/metalikium/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/metalikium/art_graffiti.txt",
+		"/Users/metalikium/.bashrc",
+		"/Users/metalikium/art_ivrit.txt",
+		"/Users/metalikium/art_big.txt",
+		"/Users/metalikium/art_doom.txt",
+		"/Users/metalikium/art_slant.txt",
+		"/Users/metalikium/art_rectangles.txt",
+		"/Users/metalikium/art_bell.txt",
+		"/Users/metalikium/art_small.txt",
+		"/Applications/MAMP/htdocs/_test/foundation/scss/app.scss",
+		"/private/etc/hosts",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/metalikium/Documents/cr_av-diams_31052014",
+		"/Users/metalikium/Documents/locations.txt",
+		"/Applications/MAMP/htdocs/_test/foundation/Gruntfile.js",
+		"/Users/metalikium/Downloads/mbadolato-iTerm2-Color-Schemes-f5db66f/README.md",
+		"/Applications/MAMP/htdocs/_cms/dtest/sites/all/modules/custom/current_posts/current_posts.info"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/metalikium/sites/tasks/app/views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"profil",
+			"tasks.store",
+			"()",
+			"title",
+			"password",
+			"Password",
+			"password",
+			"Password",
+			"password",
+			"username",
+			"Username",
+			"username",
+			"Username",
+			"username",
+			"email",
+			"username",
+			"Username",
+			"password",
+			"Password",
+			"password",
+			"admin",
+			"Login",
+			"login",
+			"Login",
+			"bg-danger",
+			"error",
+			"Password",
+			"password",
+			"Password",
+			"Username",
+			"return",
+			"User::whereUsername($username)->first()",
+			"title",
+			"$title",
+			" \\ ",
+			"error",
+			"$tasks",
+			"learning-laravel",
+			"User::",
+			"User",
+			"Username",
+			"username",
+			">\n",
+			"elem",
+			".drag-left",
+			".animate-repeat",
+			");\n",
+			"$this",
+			"1",
+			"phone",
+			"ng-app=\"ngSwipeRightExample\"",
+			"[",
+			"js",
+			"username",
+			"Username",
+			"username",
+			"homestead",
+			"mainImgUrl",
+			"fm",
+			"#/",
+			"phonecatApp",
+			"[",
+			"'",
+			"MOTOROLA",
+			"{\n",
+			"age",
+			"snippet",
+			"\":",
+			"'",
+			"snipper",
+			"start",
+			"span",
+			"task",
+			"endtime",
+			"starttime",
+			"description",
+			"name",
+			"'",
+			"·",
+			"'",
+			"',\n",
+			"	\n",
+			"');\n",
+			"font",
+			"reviewCtrl",
+			"reviewCtrl.review.body",
+			"reviewCtrl.",
+			" -->",
+			"2",
+			"1",
+			"tab ===",
+			"tab === ",
+			"ng-click",
+			"ng",
+			"panel",
+			"Description",
+			"div",
+			"store.",
+			";\n",
+			"________________________________________________________________",
+			"\"\"",
+			"\"",
+			"color",
+			"BCD42A",
+			"FF5D38",
+			"8998b9",
+			"6e7a94",
+			"26A6A6",
+			"2b303b",
+			"dee3ec",
+			"272b34",
+			"26A6A6",
+			"current_posts_block_view",
+			"current_posts_max",
+			"MySQL",
+			"-----",
+			"\n-----",
+			"-----\n",
+			"dtest"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"alert alert-danger",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/metalikium/angularjs/angularjs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true
+}
