@@ -51,14 +51,18 @@ Route::get('/', function()
 	$tag->save();
 	*/
 	
-	
-
+	// display all users that has the current link
+	$link = Link::find(2)->user;
+	return $link;
+	// display all links of the current user
+	$user = User::find(1)->first();
+	return $user->link;	
 	// display all links for the selected tag
 	$tags = Tag::whereName('game')->first();
 	return $tags->link;
 	// display all tags for the selected link
-	$links = Link::find(2)->tag;
-	return $links;
+	$link = Link::find(2)->tag;
+	return $link;
 
 	return View::make('hello');
 });
