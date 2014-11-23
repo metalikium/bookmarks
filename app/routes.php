@@ -11,46 +11,15 @@
 |
 */
 
-Route::get('/', function()
-{
+Route::get('hash/{pass}', function ($pass) {
+	$pass_to_hash = $pass;
+	return Hash::make($pass_to_hash);
+});
 
-	/*
-	$link        = new Link;
-	$link->title = 'Grooveshark';
-	$link->url   = 'http://grooveshark.com/';
-	$link->body  = 'Music streaming';
-	$link->save();
-	
-	$tag          = new Tag;
-	$tag->name    = 'stream';
-	$tag->link_id = $link->id;
-	$tag->save();
+// Homepage
+Route::get('/', ['as' => 'home', function () {
 
-	$tag          = new Tag;
-	$tag->name    = 'music';
-	$tag->link_id = $link->id;
-	$tag->save();
-	*/
-	
-	
-	/*
-	$link        = new Link;
-	$link->title = 'TwitchTV';
-	$link->url   = 'http://twitch.tv';
-	$link->body  = 'Game streaming';
-	$link->save();
-
-	$tag          = new Tag;
-	$tag->name    = 'stream';
-	$tag->link_id = $link->id;
-	$tag->save();
-	
-	$tag          = new Tag;
-	$tag->name    = 'game';
-	$tag->link_id = $link->id;
-	$tag->save();
-	*/
-	
+	/*	
 	// display all users that has the current link
 	$link = Link::find(2)->user;
 	return $link;
@@ -65,4 +34,19 @@ Route::get('/', function()
 	return $link;
 
 	return View::make('hello');
-});
+	*/
+
+	if ( Auth::guest() )
+		return Redirect::route('login');
+
+}]);
+
+
+// Users
+Route::resource('users', 'UsersController');
+Route::get('register', ['as' => 'register', 'uses' => 'UsersController@create']);
+
+// Auth / Login
+Route::resource('sessions', 'SessionsController');
+Route::get('login', ['as' => 'login', 'uses' => 'SessionsController@create']);
+Route::get('logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
