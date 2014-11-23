@@ -4,9 +4,9 @@ class Link extends \Eloquent {
 	protected $fillable = [];
 
 	// Relation Link __has_many__ Tag
-	public function link() {
+	public function tag() {
 
-		return $this->hasMany('Tag');
-		
+		return $this->belongsToMany('Tag');
+
 	}
 }
